@@ -5,7 +5,7 @@ let SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 
 exports.config={
     framework:'jasmine',
-    rootElement: 'html',
+    //rootElement: 'body',
     seleniumAddress:"http://localhost:4444/wd/hub",
     jasmineNodeOpts:{
         showColors: true,
@@ -22,6 +22,7 @@ exports.config={
     }
   },
   onPrepare:function(){
+      //browser.manage().window().setSize(1280,1024);
       jasmine.getEnv().addReporter(new SpecReporter({
           spec:{
               displayStacktrace:true
