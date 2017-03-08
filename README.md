@@ -1,8 +1,8 @@
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [Locators](#)
-- [Locators in Protractor](#)
-- [Structure](#)
+- [Locators](https://github.com/zac11/protractor-locators/blob/master/README.md#locators)
+- [Locators in Protractor](https://github.com/zac11/protractor-locators/blob/master/README.md#locators-in-protractor)
+- [Structure](https://github.com/zac11/protractor-locators/blob/master/README.md#structure)
 
 
 #Locators
