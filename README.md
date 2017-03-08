@@ -1,3 +1,10 @@
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Locators](#)
+- [Locators in Protractor](#)
+- [Structure](#)
+
+
 #Locators
 
  One of the main aims of the E2E testing is to find the element/elements that you want to interact with and perform some kind of action over those locators. These may be an input box, a radiobutton, a dropdown etc. 
