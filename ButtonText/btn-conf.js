@@ -6,7 +6,6 @@ let SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 exports.config={
     framework:'jasmine',
     //rootElement: 'body',
-    //useAllAngular2AppRoots: true,
     seleniumAddress:"http://localhost:4444/wd/hub",
     jasmineNodeOpts:{
         showColors: true,
@@ -15,7 +14,7 @@ exports.config={
         print: function () {
         }
     },
-    specs:["css-spec.js"],
+    specs:["btn-spec.js"],
     capabilities: {
     browserName: 'chrome',
     'chromeOptions': {
